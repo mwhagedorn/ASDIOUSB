@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA8E20031BAC9E7800B7D334 /* USBTester.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8E20021BAC9E7800B7D334 /* USBTester.h */; };
-		BA8E20051BAC9E7800B7D334 /* USBTester.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E20041BAC9E7800B7D334 /* USBTester.m */; };
-		BA8E200B1BAC9E7800B7D334 /* libUSBTester.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8E1FFF1BAC9E7800B7D334 /* libUSBTester.a */; };
+		BA8E200B1BAC9E7800B7D334 /* libASDIOUSB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8E1FFF1BAC9E7800B7D334 /* libASDIOUSB.a */; };
+		BA8E20241BAC9F5800B7D334 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8E20231BAC9F5800B7D334 /* IOKit.framework */; };
+		BA8E202B1BACA27C00B7D334 /* ASDIOUSBDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8E20271BACA27C00B7D334 /* ASDIOUSBDevice.h */; };
+		BA8E202C1BACA27C00B7D334 /* ASDIOUSBDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E20281BACA27C00B7D334 /* ASDIOUSBDevice.m */; };
+		BA8E202D1BACA27C00B7D334 /* ASDIOUSBDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E20281BACA27C00B7D334 /* ASDIOUSBDevice.m */; };
+		BA8E202E1BACA27C00B7D334 /* ASDIOUSBManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8E20291BACA27C00B7D334 /* ASDIOUSBManager.h */; };
+		BA8E202F1BACA27C00B7D334 /* ASDIOUSBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E202A1BACA27C00B7D334 /* ASDIOUSBManager.m */; };
+		BA8E20301BACA27C00B7D334 /* ASDIOUSBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E202A1BACA27C00B7D334 /* ASDIOUSBManager.m */; };
+		BA8E20321BACA2B500B7D334 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BA8E20311BACA2B500B7D334 /* Podfile */; };
+		BA8E20341BACA2ED00B7D334 /* ASDIOUSB.podspec in Resources */ = {isa = PBXBuildFile; fileRef = BA8E20331BACA2ED00B7D334 /* ASDIOUSB.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,11 +30,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BA8E1FFF1BAC9E7800B7D334 /* libUSBTester.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUSBTester.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA8E20021BAC9E7800B7D334 /* USBTester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USBTester.h; sourceTree = "<group>"; };
-		BA8E20041BAC9E7800B7D334 /* USBTester.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USBTester.m; sourceTree = "<group>"; };
-		BA8E200A1BAC9E7800B7D334 /* USBTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = USBTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8E1FFF1BAC9E7800B7D334 /* libASDIOUSB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libASDIOUSB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8E200A1BAC9E7800B7D334 /* ASDIOUSBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASDIOUSBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8E20101BAC9E7800B7D334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8E20231BAC9F5800B7D334 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		BA8E20271BACA27C00B7D334 /* ASDIOUSBDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDIOUSBDevice.h; sourceTree = "<group>"; };
+		BA8E20281BACA27C00B7D334 /* ASDIOUSBDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDIOUSBDevice.m; sourceTree = "<group>"; };
+		BA8E20291BACA27C00B7D334 /* ASDIOUSBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDIOUSBManager.h; sourceTree = "<group>"; };
+		BA8E202A1BACA27C00B7D334 /* ASDIOUSBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDIOUSBManager.m; sourceTree = "<group>"; };
+		BA8E20311BACA2B500B7D334 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		BA8E20331BACA2ED00B7D334 /* ASDIOUSB.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ASDIOUSB.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA8E20241BAC9F5800B7D334 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA8E200B1BAC9E7800B7D334 /* libUSBTester.a in Frameworks */,
+				BA8E200B1BAC9E7800B7D334 /* libASDIOUSB.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +65,9 @@
 		BA8E1FF61BAC9E7700B7D334 = {
 			isa = PBXGroup;
 			children = (
-				BA8E20011BAC9E7800B7D334 /* USBTester */,
-				BA8E200E1BAC9E7800B7D334 /* USBTesterTests */,
+				BA8E20011BAC9E7800B7D334 /* ASDIOUSB */,
+				BA8E200E1BAC9E7800B7D334 /* ASDIOUSBTests */,
+				BA8E20251BAC9FAA00B7D334 /* Frameworks */,
 				BA8E20001BAC9E7800B7D334 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,26 +75,29 @@
 		BA8E20001BAC9E7800B7D334 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA8E1FFF1BAC9E7800B7D334 /* libUSBTester.a */,
-				BA8E200A1BAC9E7800B7D334 /* USBTesterTests.xctest */,
+				BA8E1FFF1BAC9E7800B7D334 /* libASDIOUSB.a */,
+				BA8E200A1BAC9E7800B7D334 /* ASDIOUSBTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA8E20011BAC9E7800B7D334 /* USBTester */ = {
+		BA8E20011BAC9E7800B7D334 /* ASDIOUSB */ = {
 			isa = PBXGroup;
 			children = (
-				BA8E20021BAC9E7800B7D334 /* USBTester.h */,
-				BA8E20041BAC9E7800B7D334 /* USBTester.m */,
+				BA8E20331BACA2ED00B7D334 /* ASDIOUSB.podspec */,
+				BA8E20311BACA2B500B7D334 /* Podfile */,
+				BA8E20261BACA1CF00B7D334 /* Classes */,
 			);
+			name = ASDIOUSB;
 			path = USBTester;
 			sourceTree = "<group>";
 		};
-		BA8E200E1BAC9E7800B7D334 /* USBTesterTests */ = {
+		BA8E200E1BAC9E7800B7D334 /* ASDIOUSBTests */ = {
 			isa = PBXGroup;
 			children = (
 				BA8E200F1BAC9E7800B7D334 /* Supporting Files */,
 			);
+			name = ASDIOUSBTests;
 			path = USBTesterTests;
 			sourceTree = "<group>";
 		};
@@ -92,6 +109,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BA8E20251BAC9FAA00B7D334 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA8E20231BAC9F5800B7D334 /* IOKit.framework */,
+			);
+			name = Frameworks;
+			path = USBTester.xcodeproj;
+			sourceTree = "<group>";
+		};
+		BA8E20261BACA1CF00B7D334 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BA8E20271BACA27C00B7D334 /* ASDIOUSBDevice.h */,
+				BA8E20281BACA27C00B7D334 /* ASDIOUSBDevice.m */,
+				BA8E20291BACA27C00B7D334 /* ASDIOUSBManager.h */,
+				BA8E202A1BACA27C00B7D334 /* ASDIOUSBManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -99,16 +136,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA8E20031BAC9E7800B7D334 /* USBTester.h in Headers */,
+				BA8E202E1BACA27C00B7D334 /* ASDIOUSBManager.h in Headers */,
+				BA8E202B1BACA27C00B7D334 /* ASDIOUSBDevice.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BA8E1FFE1BAC9E7800B7D334 /* USBTester */ = {
+		BA8E1FFE1BAC9E7800B7D334 /* ASDIOUSB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA8E20131BAC9E7800B7D334 /* Build configuration list for PBXNativeTarget "USBTester" */;
+			buildConfigurationList = BA8E20131BAC9E7800B7D334 /* Build configuration list for PBXNativeTarget "ASDIOUSB" */;
 			buildPhases = (
 				BA8E1FFB1BAC9E7800B7D334 /* Sources */,
 				BA8E1FFC1BAC9E7800B7D334 /* Frameworks */,
@@ -118,14 +156,14 @@
 			);
 			dependencies = (
 			);
-			name = USBTester;
+			name = ASDIOUSB;
 			productName = USBTester;
-			productReference = BA8E1FFF1BAC9E7800B7D334 /* libUSBTester.a */;
+			productReference = BA8E1FFF1BAC9E7800B7D334 /* libASDIOUSB.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		BA8E20091BAC9E7800B7D334 /* USBTesterTests */ = {
+		BA8E20091BAC9E7800B7D334 /* ASDIOUSBTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA8E20161BAC9E7800B7D334 /* Build configuration list for PBXNativeTarget "USBTesterTests" */;
+			buildConfigurationList = BA8E20161BAC9E7800B7D334 /* Build configuration list for PBXNativeTarget "ASDIOUSBTests" */;
 			buildPhases = (
 				BA8E20061BAC9E7800B7D334 /* Sources */,
 				BA8E20071BAC9E7800B7D334 /* Frameworks */,
@@ -136,9 +174,9 @@
 			dependencies = (
 				BA8E200D1BAC9E7800B7D334 /* PBXTargetDependency */,
 			);
-			name = USBTesterTests;
+			name = ASDIOUSBTests;
 			productName = USBTesterTests;
-			productReference = BA8E200A1BAC9E7800B7D334 /* USBTesterTests.xctest */;
+			productReference = BA8E200A1BAC9E7800B7D334 /* ASDIOUSBTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -158,7 +196,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BA8E1FFA1BAC9E7700B7D334 /* Build configuration list for PBXProject "USBTester" */;
+			buildConfigurationList = BA8E1FFA1BAC9E7700B7D334 /* Build configuration list for PBXProject "ASDIOUSB" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -170,8 +208,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BA8E1FFE1BAC9E7800B7D334 /* USBTester */,
-				BA8E20091BAC9E7800B7D334 /* USBTesterTests */,
+				BA8E1FFE1BAC9E7800B7D334 /* ASDIOUSB */,
+				BA8E20091BAC9E7800B7D334 /* ASDIOUSBTests */,
 			);
 		};
 /* End PBXProject section */
@@ -181,6 +219,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA8E20341BACA2ED00B7D334 /* ASDIOUSB.podspec in Resources */,
+				BA8E20321BACA2B500B7D334 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,7 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA8E20051BAC9E7800B7D334 /* USBTester.m in Sources */,
+				BA8E202F1BACA27C00B7D334 /* ASDIOUSBManager.m in Sources */,
+				BA8E202C1BACA27C00B7D334 /* ASDIOUSBDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +240,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA8E202D1BACA27C00B7D334 /* ASDIOUSBDevice.m in Sources */,
+				BA8E20301BACA27C00B7D334 /* ASDIOUSBManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +250,7 @@
 /* Begin PBXTargetDependency section */
 		BA8E200D1BAC9E7800B7D334 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BA8E1FFE1BAC9E7800B7D334 /* USBTester */;
+			target = BA8E1FFE1BAC9E7800B7D334 /* ASDIOUSB */;
 			targetProxy = BA8E200C1BAC9E7800B7D334 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -294,7 +337,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EXECUTABLE_PREFIX = lib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ASDIOUSB;
 			};
 			name = Debug;
 		};
@@ -302,7 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EXECUTABLE_PREFIX = lib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ASDIOUSB;
 			};
 			name = Release;
 		};
@@ -320,7 +363,7 @@
 				);
 				INFOPLIST_FILE = USBTesterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ASDIOUSBTests;
 			};
 			name = Debug;
 		};
@@ -334,14 +377,14 @@
 				);
 				INFOPLIST_FILE = USBTesterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ASDIOUSBTests;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BA8E1FFA1BAC9E7700B7D334 /* Build configuration list for PBXProject "USBTester" */ = {
+		BA8E1FFA1BAC9E7700B7D334 /* Build configuration list for PBXProject "ASDIOUSB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA8E20111BAC9E7800B7D334 /* Debug */,
@@ -350,7 +393,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA8E20131BAC9E7800B7D334 /* Build configuration list for PBXNativeTarget "USBTester" */ = {
+		BA8E20131BAC9E7800B7D334 /* Build configuration list for PBXNativeTarget "ASDIOUSB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA8E20141BAC9E7800B7D334 /* Debug */,
@@ -358,7 +401,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		BA8E20161BAC9E7800B7D334 /* Build configuration list for PBXNativeTarget "USBTesterTests" */ = {
+		BA8E20161BAC9E7800B7D334 /* Build configuration list for PBXNativeTarget "ASDIOUSBTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA8E20171BAC9E7800B7D334 /* Debug */,
