@@ -27,14 +27,11 @@ This code wraps up the standard IOKit libraries for consumption via a cocoapod
   s.source           = { :git => "https://github.com/mwhagedorn/ASDIOUSB.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/mwhagedorn'
 
-  s.platform     = :osx, '10.8'
+  s.platform     = :osx, '10.7'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'ASDIOUSB' => ['Pod/Assets/*.png']
-  }
-
+  
   s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'IOKit'
   # s.dependency 'AFNetworking', '~> 2.3'
