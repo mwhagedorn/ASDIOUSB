@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA8E20031BAC9E7800B7D334 /* USBTester.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8E20021BAC9E7800B7D334 /* USBTester.h */; };
+		BA8E20051BAC9E7800B7D334 /* USBTester.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E20041BAC9E7800B7D334 /* USBTester.m */; };
+		BA8E200B1BAC9E7800B7D334 /* libUSBTester.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8E1FFF1BAC9E7800B7D334 /* libUSBTester.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA8E200C1BAC9E7800B7D334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA8E1FF71BAC9E7700B7D334 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA8E1FFE1BAC9E7800B7D334;
+			remoteInfo = USBTester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA8E1FFF1BAC9E7800B7D334 /* libUSBTester.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUSBTester.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8E20021BAC9E7800B7D334 /* USBTester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USBTester.h; sourceTree = "<group>"; };
+		BA8E20041BAC9E7800B7D334 /* USBTester.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USBTester.m; sourceTree = "<group>"; };
+		BA8E200A1BAC9E7800B7D334 /* USBTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = USBTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8E20101BAC9E7800B7D334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA8E1FFC1BAC9E7800B7D334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8E20071BAC9E7800B7D334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8E200B1BAC9E7800B7D334 /* libUSBTester.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA8E1FF61BAC9E7700B7D334 = {
+			isa = PBXGroup;
+			children = (
+				BA8E20011BAC9E7800B7D334 /* USBTester */,
+				BA8E200E1BAC9E7800B7D334 /* USBTesterTests */,
+				BA8E20001BAC9E7800B7D334 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA8E20001BAC9E7800B7D334 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA8E1FFF1BAC9E7800B7D334 /* libUSBTester.a */,
+				BA8E200A1BAC9E7800B7D334 /* USBTesterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA8E20011BAC9E7800B7D334 /* USBTester */ = {
+			isa = PBXGroup;
+			children = (
+				BA8E20021BAC9E7800B7D334 /* USBTester.h */,
+				BA8E20041BAC9E7800B7D334 /* USBTester.m */,
+			);
+			path = USBTester;
+			sourceTree = "<group>";
+		};
+		BA8E200E1BAC9E7800B7D334 /* USBTesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA8E200F1BAC9E7800B7D334 /* Supporting Files */,
+			);
+			path = USBTesterTests;
+			sourceTree = "<group>";
+		};
+		BA8E200F1BAC9E7800B7D334 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA8E20101BAC9E7800B7D334 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BA8E1FFD1BAC9E7800B7D334 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8E20031BAC9E7800B7D334 /* USBTester.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BA8E1FFE1BAC9E7800B7D334 /* USBTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8E20131BAC9E7800B7D334 /* Build configuration list for PBXNativeTarget "USBTester" */;
+			buildPhases = (
+				BA8E1FFB1BAC9E7800B7D334 /* Sources */,
+				BA8E1FFC1BAC9E7800B7D334 /* Frameworks */,
+				BA8E1FFD1BAC9E7800B7D334 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = USBTester;
+			productName = USBTester;
+			productReference = BA8E1FFF1BAC9E7800B7D334 /* libUSBTester.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BA8E20091BAC9E7800B7D334 /* USBTesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8E20161BAC9E7800B7D334 /* Build configuration list for PBXNativeTarget "USBTesterTests" */;
+			buildPhases = (
+				BA8E20061BAC9E7800B7D334 /* Sources */,
+				BA8E20071BAC9E7800B7D334 /* Frameworks */,
+				BA8E20081BAC9E7800B7D334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8E200D1BAC9E7800B7D334 /* PBXTargetDependency */,
+			);
+			name = USBTesterTests;
+			productName = USBTesterTests;
+			productReference = BA8E200A1BAC9E7800B7D334 /* USBTesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA8E1FF71BAC9E7700B7D334 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Mike Hagedorn";
+				TargetAttributes = {
+					BA8E1FFE1BAC9E7800B7D334 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					BA8E20091BAC9E7800B7D334 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = BA8E1FFA1BAC9E7700B7D334 /* Build configuration list for PBXProject "USBTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA8E1FF61BAC9E7700B7D334;
+			productRefGroup = BA8E20001BAC9E7800B7D334 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA8E1FFE1BAC9E7800B7D334 /* USBTester */,
+				BA8E20091BAC9E7800B7D334 /* USBTesterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA8E20081BAC9E7800B7D334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA8E1FFB1BAC9E7800B7D334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8E20051BAC9E7800B7D334 /* USBTester.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8E20061BAC9E7800B7D334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA8E200D1BAC9E7800B7D334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA8E1FFE1BAC9E7800B7D334 /* USBTester */;
+			targetProxy = BA8E200C1BAC9E7800B7D334 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA8E20111BAC9E7800B7D334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BA8E20121BAC9E7800B7D334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BA8E20141BAC9E7800B7D334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA8E20151BAC9E7800B7D334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA8E20171BAC9E7800B7D334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = USBTesterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA8E20181BAC9E7800B7D334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = USBTesterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA8E1FFA1BAC9E7700B7D334 /* Build configuration list for PBXProject "USBTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8E20111BAC9E7800B7D334 /* Debug */,
+				BA8E20121BAC9E7800B7D334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8E20131BAC9E7800B7D334 /* Build configuration list for PBXNativeTarget "USBTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8E20141BAC9E7800B7D334 /* Debug */,
+				BA8E20151BAC9E7800B7D334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA8E20161BAC9E7800B7D334 /* Build configuration list for PBXNativeTarget "USBTesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8E20171BAC9E7800B7D334 /* Debug */,
+				BA8E20181BAC9E7800B7D334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA8E1FF71BAC9E7700B7D334 /* Project object */;
+}
