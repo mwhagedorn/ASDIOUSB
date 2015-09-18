@@ -7,11 +7,15 @@
 //
 
 #import "ASDAppDelegate.h"
+#import <ASDIOUSBManager.h>
+
+
 
 @implementation ASDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSString *theString = [NSString stringWithString:ASDIOUSBDeviceConnectedNotification];
     // Override point for customization after application launch.
     return YES;
 }

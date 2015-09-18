@@ -1,0 +1,17 @@
+PODS:
+  - ASDIOUSB (0.1.0)
+  - Kiwi (2.4.0)
+
+DEPENDENCIES:
+  - ASDIOUSB (from `../`)
+  - Kiwi
+
+EXTERNAL SOURCES:
+  ASDIOUSB:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ASDIOUSB: 3ae61839a64a34f0f1d4591189db1bad2f5e4944
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+
+COCOAPODS: 0.38.2

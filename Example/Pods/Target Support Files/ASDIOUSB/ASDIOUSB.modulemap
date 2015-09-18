@@ -1,0 +1,6 @@
+framework module ASDIOUSB {
+  umbrella header "ASDIOUSB-umbrella.h"
+
+  export *
+  module * { export * }
+}
